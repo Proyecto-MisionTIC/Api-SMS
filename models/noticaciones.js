@@ -14,9 +14,7 @@ function enviarCorreo(nombre,correo,mensaje) {
   
 }
     sgMail.send(msg)
-    .then(() => {console.log('Correo Enviado')})
-    .catch((error) => {console.error(error)})    
+    .then(() => {console.log('Correo Enviado')}).catch((error) => {console.error(error)})    
 }
-
 
 module.exports = enviarCorreo

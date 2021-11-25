@@ -9,9 +9,9 @@ function enviarMensaje(mensaje,telefono){
         from: "+14092077972",
         body: mensaje
         
-    }).then(messages => console.log("Mensaje Enviado"))
-    .catch((error) => console.log(error))
-    
+    }).then(messages => console.log("Mensaje Enviado")).catch((error) => console.log(error))
+    console.log(mensaje)
+    console.log(telefono)
 
 }
 
